@@ -1,5 +1,5 @@
 
-var type = require('type')
+var type = require('jkroso-type')
 
 /**
  * expose equals

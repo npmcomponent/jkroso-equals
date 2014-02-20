@@ -1,27 +1,18 @@
 {
-  "name": "equals",
-  "version": "0.3.6",
+  "name": "jkroso-equals",
   "description": "Check if two values are deeply equivalent",
-  "dependencies": {
-    "type": "jkroso/type#1.1.0"
-  },
-  "devDependencies": {
-    "serve": "jkroso/serve#1.5.3",
-    "mocha": "*",
-    "jsmd": "*",
-    "chai": "*"
-  },
-  "repository": "git://github.com/jkroso/equals.git",
-  "bugs": "https://github.com/jkroso/equals/issues",
+  "version": "0.3.6",
   "keywords": [
     "equality",
     "equal",
     "same",
     "equivalent",
     "equivalence",
-    "="
+    "=",
+    "equals"
   ],
-  "files": ["index.js"],
-  "author": "Jake Rosoman",
+  "dependencies": {
+    "jkroso-type": "git://github.com/npmcomponent/jkroso-type.git"
+  },
   "license": "MIT"
 }
